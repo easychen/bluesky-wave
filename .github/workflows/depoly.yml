@@ -11,6 +11,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '18'  # 选择合适的Node版本
+      # 进入 web 目录
+      - run: cd web
       - run: npm install
       - run: npm run build
       - uses: peaceiris/actions-gh-pages@v3
