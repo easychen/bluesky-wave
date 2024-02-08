@@ -1,6 +1,6 @@
 # BlueWave 
 
-![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/26413dbf-deaa-4fcc-be47-4fe1de7b6d6a)
+![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/a68cf7b1-6506-4a59-8f14-ef5c2dc7ec1a)
 
 
 
