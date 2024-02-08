@@ -9,5 +9,8 @@ Enter your BlueSky Username (handle), APP password, and the starting account, th
 https://github.com/easychen/bluesky-wave/assets/1294760/786ed0ec-9251-474a-92ce-3c56b112a35c
 
 
+## Deploy with Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feasychen%2Fbluesky-wave.git&root-directory=docs)
 
 
