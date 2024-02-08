@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # 或你的默认分支名
+      - master  # 或你的默认分支名
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
