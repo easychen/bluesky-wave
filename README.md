@@ -1,2 +1,4 @@
-# bluesky-wave
+# BlueWave 
 Bluesky Bulk Follow Tool
+
+
