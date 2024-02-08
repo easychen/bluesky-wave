@@ -1,5 +1,8 @@
 # BlueWave 
 
+![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/a0b62485-3e7b-4dd0-af38-ce8b3cf3c857)
+
+
 BlueSky is fantastic, but sometimes it's hard for us to find many accounts to follow. To solve this problem, we developed the BlueWave tool. 
 
 It works by reading the follow list of a BlueSky account that already follows a large number of accounts, filtering through keywords or manually selecting, and then following in bulk. Of course, you can also read the follow list of the accounts followed by your starting account. This allows you to quickly follow a large number of accounts in a specific field.
