@@ -1,6 +1,7 @@
 # BlueWave 
 
-![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/a0b62485-3e7b-4dd0-af38-ce8b3cf3c857)
+![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/26413dbf-deaa-4fcc-be47-4fe1de7b6d6a)
+
 
 
 BlueSky is fantastic, but sometimes it's hard for us to find many accounts to follow. To solve this problem, we developed the BlueWave tool. 
