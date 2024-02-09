@@ -67,7 +67,7 @@ function App() {
       });
       console.log(ret);
       skyAgent = agent;
-      toast.success('Login successfully, wait a minute please...');
+      toast.success('Connected, wait a minute please...');
       return agent;
     } catch (error) {
       console.error(error); 
@@ -149,7 +149,7 @@ function App() {
     <div className="text-3xl mt-10 text-center">BlueWave 🦋
     <div className="text-sm text-gray-300">Follow multiple users at once</div>
     </div>
-    <form onSubmit={handleFormSubmit} className="flex m-auto bg-blue-50 flex-col p-10 w-[600px] mt-10 rounded shadow-xl">
+    <form onSubmit={handleFormSubmit} className="flex m-auto bg-blue-50 flex-col p-10 max-w-[600px] mt-10 rounded shadow-xl">
       <div className="flex bg-white mb-5 p-5 rounded">
       Read someone&apos;s  follow list and then batch follow users either through keywords or manual selection.
       </div>
@@ -173,12 +173,12 @@ function App() {
         </label>
       </div>
     </form>
-    <div className="mt-5 w-[600px] border m-auto rounded shadow-lg p-5 empty:hidden">  
+    <div className="mt-5 max-w-[600px] border m-auto rounded shadow-lg p-5 empty:hidden">  
 
       
 
       { followings && followings.length > 0 ? <>
-        <div className="keywords w-full flex flex-row justify-between items-center mb-5">
+        <div className="keywords w-full flex flex-row justify-between items-center mb-5 sticky top-1 bg-white z-50">
           <div className="left flex-1 mr-2"><input type="text" className="w-full" placeholder='Fliter keyword, like pixiv' value={fliteKeyword} onChange={(e) => setFliteKeyword(e.target.value)} /></div>
           <div className="right">
             <button className="gray" onClick={()=>toggleToFollow(true, 'all')}>Select All</button>
