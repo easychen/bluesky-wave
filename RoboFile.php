@@ -15,5 +15,15 @@ class RoboFile extends \Robo\Tasks
         // move web/dist to ./docs
         $this->taskExec('rm -rf docs && mv web/dist docs')->run();
 
+        // write wave.level06.com to docs/CNAME
+        $this->cname();
+        
+
+    }
+
+    public function cname()
+    {
+        // write wave.level06.com to docs/CNAME
+        $this->_exec('echo "wave.level06.com" > docs/CNAME');
     }
 }
