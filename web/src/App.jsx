@@ -148,6 +148,7 @@ function App() {
     <>
     <div className="text-3xl mt-10 text-center">BlueWave 🦋
     <div className="text-sm text-gray-300">Follow multiple users at once</div>
+    <div className="flex flex-row justify-center mt-5 h-[54px]"><a href="https://www.producthunt.com/posts/bluewave-4?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bluewave&#0045;4" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=438815&theme=light" /></a></div>
     </div>
     <form onSubmit={handleFormSubmit} className="flex m-auto bg-blue-50 flex-col p-10 max-w-[600px] mt-10 rounded shadow-xl">
       <div className="flex bg-white mb-5 p-5 rounded">

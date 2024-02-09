@@ -2,7 +2,7 @@
 
 ![bluewave](https://github.com/easychen/bluesky-wave/assets/1294760/a68cf7b1-6506-4a59-8f14-ef5c2dc7ec1a)
 
-
+[![BlueWave - Bluesky bulk follow tool | Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=438815&theme=light)](https://www.producthunt.com/posts/bluewave-4?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bluewave-4)
 
 BlueSky is fantastic, but sometimes it's hard for us to find many accounts to follow. To solve this problem, we developed the BlueWave tool. 
 

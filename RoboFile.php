@@ -13,7 +13,7 @@ class RoboFile extends \Robo\Tasks
             ->run();
 
         // move web/dist to ./docs
-        $this->taskExec('mv web/dist docs')->run();
+        $this->taskExec('rm -rf docs && mv web/dist docs')->run();
 
     }
 }
